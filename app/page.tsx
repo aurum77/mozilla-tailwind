@@ -10,8 +10,9 @@ export default function Home() {
         {/* */}
         <ul className="flex justify-between px-60 pt-4 h-[48px] items-center">
           <div className="flex gap-8 items-center">
-            <Image src={"https://www.mozilla.org/media/protocol/img/logos/mozilla/logo-word-hor.e20791bb4dd4.svg"} alt={"mozilla logo"} width={112} height={32} />
-            {/* <li><a href="#" className={`${inter.className} size-4`}>Mozilla logo</a></li> */}
+            <Link href="/">
+              <Image src={"https://www.mozilla.org/media/protocol/img/logos/mozilla/logo-word-hor.e20791bb4dd4.svg"} alt={"mozilla logo"} width={112} height={32} />
+            </Link>
             <li><a href="#" className={`${inter.className} size-4`}>Firefox Browsers</a></li>
             <li><a href="#" className={`${inter.className} size-4`}>Products</a></li>
             <li><a href="#" className={`${inter.className} size-4`}>Who We Are</a> </li>
